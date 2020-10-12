@@ -1,0 +1,15 @@
+include ':app'
+
+include ':browseui:api'
+include ':browseui:impl'
+include ':browseui:module'
+
+include ':data'
+
+include ':glide'
+
+include ':net:api'
+include ':net:impl'
+include ':net:module'
+
+rootProject.name = "Hilt Giphy"
